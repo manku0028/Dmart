@@ -48,49 +48,49 @@ const products = [
     imgSrc: 'https://img.freepik.com/fotos-premium/repolho-verde-fresco-e-parte-picada-isolado_80510-415.jpg',
     altText: 'cabbage',
     productName: 'fresh cabbage',
-    priceProduct: '$ 0.99/- -$5.99/-',
+    priceProduct: '₹ 103/- -₹ 80/-',
     stars: 4.5
   },
   {
     imgSrc: 'https://img.freepik.com/fotos-premium/fatia-fresca-da-cenoura-e-da-cenoura-isolada-no-branco-feche-acima-da-cenoura_43284-1557.jpg',
     altText: 'carrot',
     productName: 'fresh carrot',
-    priceProduct: '$ 2.97/- -$7.99/-',
+    priceProduct: '₹ 160/- -₹ 200/-',
     stars: 4.5
   },
   {
     imgSrc: 'https://img.freepik.com/fotos-premium/cal-fresco-natural-com-gotas-de-agua-fatiadas-e-isoladas-no-fundo-branco_252965-20.jpg',
     altText: 'lemon',
     productName: 'fresh lemon',
-    priceProduct: '$ 1.99/- -$4.99/-',
+    priceProduct: '₹ 109/- -₹ 120/-',
     stars: 4.5
   },
   {
     imgSrc: 'https://img.freepik.com/fotos-premium/cebola-dourada-fresca-isolada-no-branco_272787-260.jpg',
     altText: 'onion',
     productName: 'fresh onion',
-    priceProduct: '$ 3.98/- -$8.94/-',
+    priceProduct: '₹ 200/- -₹ 180/-',
     stars: 4.5
   },
   {
     imgSrc: 'https://img.freepik.com/fotos-premium/pilha-de-batatas-jovens-frescas-isoladas-no-branco_136401-468.jpg?size=626&ext=jpg',
     altText: 'potato',
     productName: 'fresh potato',
-    priceProduct: '$ 2.91/- -$6.94/-',
+    priceProduct: '₹ 180/- -₹ 150/-',
     stars: 4.5
   },
   {
     imgSrc: 'https://img.freepik.com/fotos-premium/melancia-listrada-verde-isolada-no-branco-com-espaco-de-copia-para-imagens-de-texto-crosssection-berry-com-p_157927-1799.jpg',
     altText: 'watermelon',
     productName: 'fresh watermelon',
-    priceProduct: '$ 4.99/- -qyt: 1',
+    priceProduct: '₹ 201/- -qyt: 1',
     stars: 4.5
   },
   {
     imgSrc: 'https://img.freepik.com/fotos-premium/abacaxi-maduro-isolado-no-fundo-branco_253984-6046.jpg',
     altText: 'pineapple',
     productName: 'fresh pineapple',
-    priceProduct: '$ 3.98/- -qyt: 1',
+    priceProduct: '₹ 160/- -qyt: 1',
     stars: 4.5
   },
  
@@ -98,7 +98,7 @@ const products = [
     imgSrc: 'https://img.freepik.com/fotos-premium/frango-isolado_181303-18.jpg',
     altText: 'chicken',
     productName: 'chicken',
-    priceProduct: '$ 12.99/- -$25.99/-',
+    priceProduct: '₹ 180/- -₹ 200/-',
     stars: 4.5
   }
 ];
