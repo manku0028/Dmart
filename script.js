@@ -41,21 +41,21 @@ const products = [
     imgSrc: 'https://img.freepik.com/fotos-premium/fatia-de-orang-de-fruta-laranja-isolada-em-branco_105428-5372.jpg',
     altText: 'orange',
     productName: 'fresh orange',
-    priceProduct: '₹ 90/- -₹130/-',
+    priceProduct: '$ 4.99/- -$10.99/-',
     stars: 4.5
   },
   {
     imgSrc: 'https://img.freepik.com/fotos-premium/repolho-verde-fresco-e-parte-picada-isolado_80510-415.jpg',
     altText: 'cabbage',
     productName: 'fresh cabbage',
-    priceProduct: '₹65/- -₹85/-',
+    priceProduct: '$ 0.99/- -$5.99/-',
     stars: 4.5
   },
   {
     imgSrc: 'https://img.freepik.com/fotos-premium/fatia-fresca-da-cenoura-e-da-cenoura-isolada-no-branco-feche-acima-da-cenoura_43284-1557.jpg',
     altText: 'carrot',
     productName: 'fresh carrot',
-    priceProduct: '₹40/- -₹50/-',
+    priceProduct: '$ 2.97/- -$7.99/-',
     stars: 4.5
   },
   {
@@ -69,36 +69,42 @@ const products = [
     imgSrc: 'https://img.freepik.com/fotos-premium/cebola-dourada-fresca-isolada-no-branco_272787-260.jpg',
     altText: 'onion',
     productName: 'fresh onion',
-    priceProduct: '₹50/- -₹60/-',
+    priceProduct: '$ 3.98/- -$8.94/-',
     stars: 4.5
   },
   {
     imgSrc: 'https://img.freepik.com/fotos-premium/pilha-de-batatas-jovens-frescas-isoladas-no-branco_136401-468.jpg?size=626&ext=jpg',
     altText: 'potato',
     productName: 'fresh potato',
-    priceProduct: '₹30/- -₹40/-',
+    priceProduct: '$ 2.91/- -$6.94/-',
     stars: 4.5
   },
   {
     imgSrc: 'https://img.freepik.com/fotos-premium/melancia-listrada-verde-isolada-no-branco-com-espaco-de-copia-para-imagens-de-texto-crosssection-berry-com-p_157927-1799.jpg',
     altText: 'watermelon',
     productName: 'fresh watermelon',
-    priceProduct: '₹40/- -qyt: 1',
+    priceProduct: '$ 4.99/- -qyt: 1',
     stars: 4.5
   },
   {
     imgSrc: 'https://img.freepik.com/fotos-premium/abacaxi-maduro-isolado-no-fundo-branco_253984-6046.jpg',
     altText: 'pineapple',
     productName: 'fresh pineapple',
-    priceProduct: '₹80/- -qyt: 1',
+    priceProduct: '$ 3.98/- -qyt: 1',
     stars: 4.5
   },
-
+  {
+    imgSrc: 'https://img.freepik.com/fotos-premium/corte-de-bife-em-branco-isolado_501530-1288.jpg?size=626&ext=jpg',
+    altText: 'meat',
+    productName: 'beef',
+    priceProduct: '$ 10.99/- -$20.99/-',
+    stars: 4.5
+  },
   {
     imgSrc: 'https://img.freepik.com/fotos-premium/frango-isolado_181303-18.jpg',
     altText: 'chicken',
     productName: 'chicken',
-    priceProduct: '₹260/- ₹280/-',
+    priceProduct: '$ 12.99/- -$25.99/-',
     stars: 4.5
   }
 ];
@@ -153,7 +159,7 @@ function addToCart(product) {
         <img src="${product.imgSrc}" alt="${product.productName}">
         <div class="content">
           <h3>${product.productName}</h3>
-          <div class="price"> ₹{price.toFixed(2)}</div>
+          <div class="price"> $${price.toFixed(2)}</div>
         </div>
       </li>
     </ul>
@@ -190,31 +196,31 @@ const reviewsData = [
   {
     imgSrc: 'image/profile-2.jpg',
     altText: 'Jones Miller',
-    reviewText: 
+    reviewText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
     stars: 4.5
   },
   {
     imgSrc: 'image/profile-4.jpg',
     altText: 'Emma Abigail',
-    reviewText: 
+    reviewText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
     stars: 4.5
   },
   {
     imgSrc: 'image/profile-3.jpg',
     altText: 'Josh Smith',
-    reviewText: ,
+    reviewText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
     stars: 4.5
   },
   {
     imgSrc: 'https://avatars.githubusercontent.com/u/75093333?v=4',
     altText: 'Valdinei Rozembergue',
-    reviewText: ,
+    reviewText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
     stars: 5
   },
   {
     imgSrc: 'image/profile-4.jpg',
     altText: 'Bella Miller',
-    reviewText: ,
+    reviewText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
     stars: 4.5
   }
 ];
