@@ -194,35 +194,24 @@ function updateCartCount(count) {
     // Custemer's Review
 const reviewsData = [
   {
-    imgSrc: 'image/profile-2.jpg',
-    altText: 'Jones Miller',
-    reviewText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
+    imgSrc: '',
+    altText: 'Ramphal yadav',
+    reviewText: 'I have ordered many things many time from the M-Mart everytime I got it on time and hygiene and safetly staff was good talking nicely service was nice',
     stars: 4.5
   },
   {
-    imgSrc: 'image/profile-4.jpg',
-    altText: 'Emma Abigail',
-    reviewText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
+    imgSrc: '',
+    altText: 'Aditya Sharma',
+    reviewText: 'On-time delivery, I have ordered third time yesterday and got my order on time without any missing product also I have got a free product as promised by the Website',
     stars: 4.5
   },
   {
-    imgSrc: 'image/profile-3.jpg',
-    altText: 'Josh Smith',
-    reviewText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
+    imgSrc: '',
+    altText: 'Raja Ram Singh',
+    reviewText: 'M-Mart is one of the best website to provide original, fresh food and grocery goods. Best customer support quick response, so much cash back compare to other website...',
     stars: 4.5
   },
-  {
-    imgSrc: 'https://avatars.githubusercontent.com/u/75093333?v=4',
-    altText: 'Valdinei Rozembergue',
-    reviewText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
-    stars: 5
-  },
-  {
-    imgSrc: 'image/profile-4.jpg',
-    altText: 'Bella Miller',
-    reviewText: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
-    stars: 4.5
-  }
+ 
 ];
 
 const reviewContainer = document.getElementById('reviewContainer');
