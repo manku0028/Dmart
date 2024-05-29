@@ -93,13 +93,7 @@ const products = [
     priceProduct: '$ 3.98/- -qyt: 1',
     stars: 4.5
   },
-  {
-    imgSrc: 'https://img.freepik.com/fotos-premium/corte-de-bife-em-branco-isolado_501530-1288.jpg?size=626&ext=jpg',
-    altText: 'meat',
-    productName: 'beef',
-    priceProduct: '$ 10.99/- -$20.99/-',
-    stars: 4.5
-  },
+ 
   {
     imgSrc: 'https://img.freepik.com/fotos-premium/frango-isolado_181303-18.jpg',
     altText: 'chicken',
